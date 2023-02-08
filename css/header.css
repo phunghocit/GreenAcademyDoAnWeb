@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    border: 1px solid #000;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    align-items: center; 
+
+    /* căn giữa theo chiều dọc */
+}
+ul a{
+    color: #000;
+    text-decoration: none;
+}
+ul a li{
+    display: inline;
+    padding: 40px;
+    padding-right: 45px;
+    
+
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.icon a img{
+    padding: 37px;
+}
