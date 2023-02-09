@@ -7,7 +7,10 @@
     <title>WEB</title>
     <!-- Link page -->
     <link rel="stylesheet" href="https://www.figma.com/file/7YU1isNE2iXSQxF2VzQR8o/Intern-(Copy)?node-id=737%3A4621&t=vqd0d08Dia6CbAvB-0">
-  <!-- Link  CSS -->
+    <!-- Link start icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- Link  CSS -->
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -28,7 +31,6 @@
 </head>
 <body>
     <header>
-            <!--Thanh Tiêu đề-->
                 <div class="logo">
                     <img src="./imgs/Planty's Logo.png" alt="logo">
                 </div>
@@ -45,112 +47,159 @@
                 </div>
     </header>
     <main>
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="banner_content">
-                    <p id="noidung">Best house plants varieties.</p>
-                    <button class="shopnow">Shop now</button>
-                    <p>Beautiful living greenery for homes and offices</p>
-                    <p>Wer've been mentioned in the press</p>
-                    <p id="bloomberg">Bloomberg</p>
-                    <p id="forbes">Forbes</p>
+        <section id="banner">
+            <div class="row banner">
+                <div class="col-lg-6 banner_content">
+                        <p id="title">Best house plants varieties.</p>
+                        <button>Shop now</button>
+                        <p id="content">Beautiful living greenery for homes and offices</p>
+                        <p>Wer've been mentioned in the press</p>
+                        <p id="bloomberg">Bloomberg</p>
+                        <p id="forbes">Forbes</p>
+                </div>
+                <div class="col-lg-6 img">
+                    <img  src="./imgs/unsplash_YAPZt8wxMO4.png" alt="">
                 </div>
             </div>
-            <div class="col-lg-6">
-                <img class="banner_img"  src="./imgs/unsplash_YAPZt8wxMO4.png" alt="">
-            </div>
-        </div>
-
-        <div class="banner_content_title">
-            <div class="row">
-                <div class="col-lg-6">
-                    <p>Each houseplant set is handled quickly and safely <br>before being sent to your destination in specially <br> designed insulated packaging.</p>      
-                </div>
-                <div class="col-lg-6">
-                    <p>Learn how ve take care of your plant<br> at every stage of its journey from our<br> greenhouse to your home.</p>
+        </section>
+        <section>
+            <div class="banner_content_title">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Each houseplant set is handled quickly and safely <br>before being sent to your destination in specially <br> designed insulated packaging.</p>      
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Learn how ve take care of your plant<br> at every stage of its journey from our<br> greenhouse to your home.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="more">
-            <p>Learn more</p>
-            <img src="./Extra Icons.png" alt="" id="icon">
-        </div>
-        <!-- Swiper -->
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="imgs/unsplash_fbAnIjhrOL4.png" alt="">
-                    <div class="duoi">
-                        <p id="name">Fiddle-leaf fig</p>
-                        <p id="price">$110.99</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="imgs/unsplash_T0inbt7nRME.png" alt="">
-                    <div class="duoi">
-                        <p id="name">Fiddle-leaf fig</p>
-                        <p id="price">$110.99</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="imgs/unsplash_Ebwp2-6BG8E.png" alt="">
-                    <div class="duoi">
-                        <p id="name">Fiddle-leaf fig</p>
-                        <p id="price">$110.99</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="imgs/unsplash_fbAnIjhrOL4.png" alt="">
-                    <div class="duoi">
-                        <p id="name">Fiddle-leaf fig</p>
-                        <p id="price">$110.99</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="imgs/unsplash_fbAnIjhrOL4.png" alt="">
-                    <div class="duoi">
-                        <p id="name">Fiddle-leaf fig</p>
-                        <p id="price">$110.99</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="imgs/unsplash_fbAnIjhrOL4.png" alt="">
-                    <div class="duoi">
-                        <p id="name">Fiddle-leaf fig</p>
-                        <p id="price">$110.99</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="imgs/unsplash_fbAnIjhrOL4.png" alt="">
-                    <div class="duoi">
-                        <p id="name">Fiddle-leaf fig</p>
-                        <p id="price">$110.99</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="imgs/unsplash_fbAnIjhrOL4.png" alt="">
-                    <div class="duoi">
-                        <p id="name">Fiddle-leaf fig</p>
-                        <p id="price">$110.99</p>
-                    </div>
-                </div>  
+            <div class="more">
+                <p>Learn more</p>
+                <img src="./Extra Icons.png" alt="" id="icon">
             </div>
-            <div class="swiper-pagination"></div>
-        </div>
-        <div class="review">
-            <div class="row">
-                <div class="col-lg-4">
+        </section>
+        <section>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="imgs/unsplash_fbAnIjhrOL4.png" alt="">
+                        <div class="duoi">
+                            <p id="name">Fiddle-leaf fig</p>
+                            <p id="price">$110.99</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/unsplash_T0inbt7nRME.png" alt="">
+                        <div class="duoi">
+                            <p id="name">Fiddle-leaf fig</p>
+                            <p id="price">$110.99</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/unsplash_Ebwp2-6BG8E.png" alt="">
+                        <div class="duoi">
+                            <p id="name">Fiddle-leaf fig</p>
+                            <p id="price">$110.99</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/unsplash_fbAnIjhrOL4.png" alt="">
+                        <div class="duoi">
+                            <p id="name">Fiddle-leaf fig</p>
+                            <p id="price">$110.99</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/unsplash_fbAnIjhrOL4.png" alt="">
+                        <div class="duoi">
+                            <p id="name">Fiddle-leaf fig</p>
+                            <p id="price">$110.99</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/unsplash_fbAnIjhrOL4.png" alt="">
+                        <div class="duoi">
+                            <p id="name">Fiddle-leaf fig</p>
+                            <p id="price">$110.99</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/unsplash_fbAnIjhrOL4.png" alt="">
+                        <div class="duoi">
+                            <p id="name">Fiddle-leaf fig</p>
+                            <p id="price">$110.99</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/unsplash_fbAnIjhrOL4.png" alt="">
+                        <div class="duoi">
+                            <p id="name">Fiddle-leaf fig</p>
+                            <p id="price">$110.99</p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section>
+            <div class="review">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3 class="reviews">REVIEWS</h3>
+                        <P class="text">Shop with confidance by reading customer reviews given<br/> by individuals who have used Bioomey. Excelient quality and<br/>  streamlined service are both offered here</P>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p>5/5</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>We adore all our friends atBloomey,
+                            especially the beauties who have come
+                            to live with us! Great advice when
+                            needed, beautifully and safely packaged.
+                            Highly recommend, it's just the best
+                            place for healthy plants and great value!</p>
+                    </div>
+                    <div class="col-lg-4">
+                        
+                    </div>
+                </div>
+                <div>
+                    <p>Pamela S.</p>
+                    <p>Lake Forest, CA</p>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row">
+                    <div class="row 2">
+                        <div class="col-lg-6">
+                            <img src="./imgs/unsplash_dDVU6D_6T80.png" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="./imgs/unsplash_UHj-S65GVtA.png" alt="">
+                        </div>                    
+    
+                    </div>
+                    <div class="row 2">
+                        <div class="content"></div>
+                        <img src="" alt="">
+                    </div>
     
                 </div>
-                <div class="col-lg-4">
-                    
-                </div>
-                <div class="col-lg-4">
-                    
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Stay update with special offers, plant-parenting tips, and more</p>
+                    </div>
+                    <div class="col-lg-6">
+                        
+                    </div>
                 </div>
             </div>
-        </div>
-
+   
+        </section>
+ 
 
     </main>
     <footer>
