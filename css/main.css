@@ -48,48 +48,186 @@
     margin: 0;
     width: 100%;
   }
-  .banner_content{
+  #banner .banner .banner_content{
     width: 50%;
   }
-  .banner_content #title{
+  #banner .banner .img{
+    width: 50%;
+  }
+  #banner  .banner .banner_content{
+    font-family: aronik;
+  }
+  #banner  .banner .banner_content #title{
+    display: block;
     width: 584px;
     height: 222px;
     left: 37px;
     top: 175px;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 90px;
     line-height: 111px;
     display: flex;
     align-items: center;
+    letter-spacing: -0,5px;
     color: #010101;
   }
-  .banner_content button{
-    display: flex;
-    font-size: 19px;
-    padding: 8px 15px;
-    justify-content: center;
+  #banner  .banner .banner_content button{
+    margin-top: 2rem;
+  }
+  .connect{
+    padding: 0.7rem 1.5rem;
+    font-weight: 500;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    font-size: 1rem;
     border-radius: 38px;
-    color: #fff;
-    background: #000;
+    filter: drop-shadow(3px 3px 15px #6f00ff73);
+    animation: ani-border 1s infinite alternate;
+    transition: 1s ease;
+  }
+  #banner  .banner .banner_content #content1{
+    display: block;
+    width: 299px;
+    height: 62px;
+    left: 50px;
+    top: 58px;
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 58px;
+    color: #000000;
+  }
+  #banner  .banner .banner_content #content2{
+    width: 254px;
+    height: 19px;
+    left: 50px;
+    top: 161px;
 
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
   }
-  .banner .img{
-    width: 50%;
+  #banner  .banner .banner_content #bloomberg{
+    display:flex;
+    width: 190px;
+    height: 43px;
+    left: 50px;
+    top: 245px;
+    
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    
+    color: #000000;
+    opacity: 0.5;
   }
-  .banner .img img{
+  #banner  .banner .banner_content #forbes{
+    width: 115px;
+    height: 46px;
+    left: 330px;
+    top: 245px;
+    
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    /* identical to box height */
+    opacity: 0.5;
+    
+    color: #000000;
+  }
+  #banner .banner .img img{
     max-width: 100%;
     height: auto;
     background-size: cover;
   }
-  .banner_content_title .row{
-    margin: 0;
+  #title .banner_content_title .row .title1{
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
   }
+  #title .banner_content_title .row .title2{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    
+    color: #000000;
+  }
+  #title .more{
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  }
+  #title .more p{
+    display: flex;
+    width: 150px;
+    height: 24px;
+    left: 638px;
+    top: 1153px;
+
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+  #title .more img{
+    display: flex;
+    width: 20px;
+    height: 20px;
+  }
+  #transfer{
+    display: flex;
+    width: 100%;
+    height: 436px;
+    font-size: 20px;
+    justify-content: space-between;   
+    justify-self: end;
+
+  }
+  #transfer #between{
+    font-family: 'Lora';
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46px;
+
+  }
+
+
   .col-lg-6{
-    padding: 0;
+    margin: 0;
+    padding: 0; 
   }
   .col-lg-4{
     margin: 0;
     padding: 0;
   }
-
+  .contact .row .col-lg-6 #right{
+    Width: 780px;
+  Height: 774px;
+  }
+  .contact .row .left{
+    width: 40%;
+  }
   
