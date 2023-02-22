@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // ES6S
+        const x =(x,y)=>x*y;
+        const x2= (x,y)=>{
+            return x*y;
+        }
+        const x3=(x,y)=>{
+            return x**y;
+        }
+        const x4=(x,y)=>{
+            return x**2+y;
+        }
+        const x5=(x,y,z)=>{
+            return x**3+y**2+z;
+        }
+        // console.log(x5(3,3,3));
+// =============================================
+//toán tử spread
+        const cars1=["a","b","c"];
+        const cars2 = ["x","y",...cars1];
+        const cars3 = ["x","y",cars1];
+        // console.log(cars2);//Cộng chuỗi
+        // console.log(cars3);// chuỗi trong chuỗi
+
+        const arr1=[10,20,30,40,50];
+        const arr2=[6,7];
+        // console.log(Math.max(1,2,3,4,5));
+        // console.log(Math.max(...arr1));
+        // const arr3=[...arr1,...arr2];
+        // console.log(arr3);
+// for/of
+//         for (const x of arr1) {
+//             console.log(x);
+//         }
+
+//         for (const x of arr1.values()) {
+//             console.log(x)
+//         }
+//         for (const x of arr1.keys()) {
+//             console.log(x)
+//         }
+// // lấy cả giá trị lần chỉ số
+//         for (const x of arr1.entries()) {
+//             console.log(x)
+//         }
+
+//============================
+    const student={
+        name:'Phung Hoc',
+        old:'22',
+        class:'FIT',
+        id:'1'
+    };
+    let k="";
+    let str="";
+    console.log(Object.keys(student));
+    console.log(Object.values(student));
+    for (const x of Object.keys(student)) {
+        // k+=x+":"+student[x]+",";
+        k+=`${x}:${student[x]},`;
+    }
+    console.log(k);  
+    // for (const x of Object.entries(student)) {
+    //     str+=x[0]+":"+x[1]+",";
+
+    // } 
+    for (let [h,k] of Object.entries(student)) {
+        str+=`${h}:${k},`;
+
+    }   
+    console.log(str);  
+
+
+    const a=5;
+    const b=4;
+    let c="so a = "+a+" va so b = "+b;
+    let kq=`so a = ${a} va so b = ${b}`;
+    console.log(c);  
+    console.log(kq);  
+
+    </script>
+</body>
+</html>
